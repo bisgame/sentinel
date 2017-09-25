@@ -20,7 +20,8 @@
 
 namespace Cartalyst\Sentinel\Persistences;
 
-use Illuminate\Database\Eloquent\Model;
+//use Illuminate\Database\Eloquent\Model;
+use Hyn\Tenancy\Abstracts\Models\TenantModel as Model;
 
 class EloquentPersistence extends Model implements PersistenceInterface
 {

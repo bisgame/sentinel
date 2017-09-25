@@ -20,7 +20,8 @@
 
 namespace Cartalyst\Sentinel\Throttling;
 
-use Illuminate\Database\Eloquent\Model;
+//use Illuminate\Database\Eloquent\Model;
+use Hyn\Tenancy\Abstracts\Models\TenantModel as Model;
 
 class EloquentThrottle extends Model
 {

@@ -20,7 +20,8 @@
 
 namespace Cartalyst\Sentinel\Reminders;
 
-use Illuminate\Database\Eloquent\Model;
+//use Illuminate\Database\Eloquent\Model;
+use Hyn\Tenancy\Abstracts\Models\TenantModel as Model;
 
 class EloquentReminder extends Model
 {
